@@ -15,7 +15,7 @@ func main() {
         "morning!",
     }
 
-    if StringSlice(strings).Contains("morning!") {
+    if StringSlice(vals).Contains("morning!") {
         fmt.Println("Good morning to you too!")
     }
 }
