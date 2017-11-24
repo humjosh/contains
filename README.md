@@ -21,11 +21,11 @@ func main() {
     }
 
     nums := []int64{
-		1, 2, 3, 4, 5,
-	}
+	1, 2, 3, 4, 5,
+    }
 
-	if Int64Slice(nums).Contains(6) {
-		panic("Shouldn't see this!")
-	}
+    if Int64Slice(nums).Contains(6) {
+	panic("Shouldn't see this!")
+    }
 }
 ```
